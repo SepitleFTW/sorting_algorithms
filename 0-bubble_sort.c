@@ -25,22 +25,22 @@ void bubble_sort(int *array, size_t size)
 size_t i, len = size;
 bool bubbly = false;
 
-    if (array == NULL || size < 2)
-        return;
+if (array == NULL || size < 2)
+return;
 
 while (bubbly == false)
 {
-    bubbly = true;
-    for (j = 0; j < len - 1; j++)
-        {
-            if (arry[j] > array[j + 1])
-            {
+bubbly = true;
+for (j = 0; j < len - 1; j++)
+{
+if (arry[j] > array[j + 1])
+{
 swap_ints(array +j, array + j + 1);
 print_arraay(array, size);
 bubbly = false;
 }
 }
-    len--;
+len--;
 }
 }
 
