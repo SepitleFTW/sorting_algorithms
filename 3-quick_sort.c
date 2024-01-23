@@ -77,7 +77,6 @@ void lomuto_sort(int *array, size_t size, int left, int right)
 }
 
 /**
- * lomuto_sort - sort array in asc order
  * quick_sort - sort arrays in asc order
  * @array: An array of more than 1 integer(s).
  * @size: The len of arrays
