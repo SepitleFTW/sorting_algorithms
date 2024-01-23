@@ -22,7 +22,7 @@ tmp = *a;
 
 void bubble_sort(int *array, size_t size)
 {
-size_t i, len = size;
+size_t j, len = size;
 bool bubbly = false;
 
 if (array == NULL || size < 2)
@@ -33,10 +33,10 @@ while (bubbly == false)
 bubbly = true;
 for (j = 0; j < len - 1; j++)
 {
-if (arry[j] > array[j + 1])
+if (array[j] > array[j + 1])
 {
 swap_ints(array + j, array + j + 1);
-print_arraay(array, size);
+print_array(array, size);
 bubbly = false;
 }
 }
