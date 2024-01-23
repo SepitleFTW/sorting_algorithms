@@ -35,7 +35,7 @@ for (j = 0; j < len - 1; j++)
 {
 if (arry[j] > array[j + 1])
 {
-swap_ints(array +j, array + j + 1);
+swap_ints(array + j, array + j + 1);
 print_arraay(array, size);
 bubbly = false;
 }
