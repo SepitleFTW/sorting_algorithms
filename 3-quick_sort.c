@@ -56,7 +56,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 }
 
 /**
- * lomuto_partition - lomuto partition function for quick sort
+ * lomuto_sort - lomuto partition function for quick sort
  * @array:  array of 2< integers.
  * @size: The len of array.
  * @left: The starting index of the subset to order.
@@ -77,11 +77,10 @@ void lomuto_sort(int *array, size_t size, int left, int right)
 }
 
 /**
- * lomuto_sort - sort array
+ * lomuto_sort - sort array in asc order
  * quick_sort - sort arrays in asc order
  * @array: An array of more than 1 integer(s).
  * @size: The len of arrays
- *
  * Description: Uses the Lomuto partition scheme. Prints
  *              the array after each swap of two elements.
  */
